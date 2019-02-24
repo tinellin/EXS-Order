@@ -34,7 +34,7 @@ public class Program {
 		System.out.print("How many items to this order?");
 		Integer n = sc.nextInt();
 		
-		for (int i=1;i<n + 1;i++) {
+		for (int i=1;i<=n;i++) {
 			System.out.println("Enter # " + i + " item data:");
 			System.out.print("Product name: ");
 			String productName = sc.next();
